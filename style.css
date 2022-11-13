@@ -11,6 +11,7 @@
     background-color: hsl(216, 50%, 16%);
     font-family: 'Outfit', sans-serif;
     border-radius: .9375rem;
+    box-shadow:  15px 30px 20px 20px hsl(215, 54%, 9%);
 }
 .nft-image{
     width: 100%;
@@ -25,6 +26,11 @@
 }
 body {
     background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
 .icon-box{
     display: flex;
@@ -104,10 +110,11 @@ hr{
     height: 100%;
     width: 100%;
     opacity: 0;
-    background-color: hsl(178, 100%, 50%);
+    background-color: hsla(178, 100%, 50%, 0.5);
 }
 .container:hover .overlay{
     opacity: 1;
+    cursor: pointer;
 }
 .icon-view{
     position: absolute;
@@ -116,11 +123,17 @@ hr{
     transform: translate(-50%,-50%);
 }
 .overlayfade{
-    height: 100%;
-    width: 0;
-    top: 0;
-    left: 0;
+    height: 95%;
+    width: 100%;
+    border-radius: .625rem;
 }
 .container:hover .overlayfade{
     width: 100%;
+    top: 0;
+    right: 0;
+}
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
 }
