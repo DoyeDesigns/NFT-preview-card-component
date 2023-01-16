@@ -8,7 +8,7 @@ Your challenge is to build out this Preview card component  and get it looking a
  Design challenge link - https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
 
 
-## Challenge features
+## Project features
 
 Users should be able to:
 
@@ -23,5 +23,7 @@ Users should be able to:
 
 ## Links
  live site url - https://doyedesigns.github.io/NFT-preview-card-component/
+ 
  Frontend Mentor NFT preview card component challenge - https://www.frontendmentor.io/solutions/i-used-flex-box-and-hover-effect-techniques-for-this-project-LyB7V1vIQ6
+ 
  Frontend Mentor Profile - https://www.frontendmentor.io/profile/DoyeDesigns
